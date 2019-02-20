@@ -1,8 +1,8 @@
-#Ionic 4 iOS Slow Rendering Issue 
+# Ionic 4 iOS Slow Rendering Issue 
 
 This demo shows a rendering issue of an ionic 4 project with nested ion-grid into a div.
 
-##How to install
+## How to install
 
 ```
 $> npm install
