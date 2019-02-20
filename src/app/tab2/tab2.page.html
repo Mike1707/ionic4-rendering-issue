@@ -6,4 +6,23 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <div padding>
+    <div padding-bottom *ngFor="let post of posts; trackBy: trackByPostId">
+      <div padding class="background-card">
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <h4>{{post.title}}</h4>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              {{post.body}}
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </div>
+  </div>
+</ion-content>

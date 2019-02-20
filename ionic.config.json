@@ -1,5 +1,7 @@
 {
   "name": "rendering",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
